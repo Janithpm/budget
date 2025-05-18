@@ -46,7 +46,7 @@ export default function SidebarNav() {
           <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10">
             <Wallet className="h-4 w-4 text-primary" />
           </div>
-          <span className="text-xl font-bold">ExpenseTracker</span>
+          <span className="text-xl font-bold">BUDGET</span>
         </div>
       </SidebarHeader>
       <SidebarContent>
@@ -64,7 +64,7 @@ export default function SidebarNav() {
         </SidebarMenu>
       </SidebarContent>
       <SidebarFooter className="p-4">
-        <div className="text-xs text-muted-foreground">ExpenseTracker v1.0</div>
+        <div className="text-xs text-muted-foreground">budget v1.0</div>
       </SidebarFooter>
     </Sidebar>
   )
