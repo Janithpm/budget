@@ -1,6 +1,6 @@
 "use client"
 
-import { BarChart3, Home, PieChart, Settings, Wallet } from "lucide-react"
+import { BarChart3, PieChart, Settings, Wallet } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import {
@@ -17,11 +17,6 @@ export default function SidebarNav() {
   const pathname = usePathname()
 
   const navItems = [
-    {
-      name: "Home",
-      href: "/",
-      icon: Home,
-    },
     {
       name: "Expenses",
       href: "/expenses",
